@@ -11,7 +11,7 @@ let userWord = prompt("Type in a word")
 
 /**
  * Check if word is a palindrome
- * @param {string} text - word to be checked
+ * @param text - word to be checked
  */
 function checkPalindrome(text) {
     let insertedWord = text.toLowerCase();
@@ -21,7 +21,7 @@ function checkPalindrome(text) {
 
 //creare regola di controllo e stampa risultato
 if (checkPalindrome(userWord)) {
-    console.log("The word inserted is a palindrome");
+    document.getElementById("result").innerHTML = "The word inserted is a palindrome";
 } else {
-    console.log('Not a palindrome');
+    document.getElementById("result").innerHTML = 'Not a palindrome';
 }
