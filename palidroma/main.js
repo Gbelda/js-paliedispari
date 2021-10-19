@@ -16,7 +16,9 @@ let userWord = prompt("Type in a word")
 function checkPalindrome(text) {
     let insertedWord = text.toLowerCase();
     let reverseWord = insertedWord.split('').reverse().join('');
+    console.log(insertedWord, reverseWord);
     return insertedWord == reverseWord
+
 }
 
 //creare regola di controllo e stampa risultato

@@ -20,11 +20,11 @@ function generateRandomNumber(maxValue) {
     return Math.floor(Math.random() * maxValue + 1);
 }
 
-//Sommiamo i due numeri Stabiliamo se la somma dei due numeri
+//Sommiamo i due numeri 
 pcNumber = generateRandomNumber(5)
 let sum = pcNumber + userNumber
 
-//Stabiliamo se è pari o dispari (usando una funzione)
+//Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
 /**
  * Checks if number inserted is odd or even
